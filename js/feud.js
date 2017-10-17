@@ -43,12 +43,12 @@ $(document).ready(function() {
         }
 
         // left key = previous quesiton
-        if(e.keyCode == 37) {
+        if(e.keyCode == 37 && gameStarted && currQuestion > 0) {
             prevQuestion();
         }
 
         // right key = next quesiton
-        if(e.keyCode == 39) {
+        if(e.keyCode == 39 && gameStarted ) {
             nextQuestion();
         }
 
