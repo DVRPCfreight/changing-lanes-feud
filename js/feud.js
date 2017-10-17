@@ -2,7 +2,7 @@ var currQuestion = 0;
 var numWrong = 0;
 
 var shouldListenForBuzzer = true;
-var isTeamDisplayed = true;
+var isTeamDisplayed = false;
 
 var xAudio;
 var buzzerAudio;
@@ -20,7 +20,7 @@ $(document).ready(function() {
         nextQuestion();
     });
 
-    $("body").bind('keypress', function(e) {
+    $("body").bind('keydown', function(e) {
         // spacebar = wrong answer
         console.log(e.keyCode);
         if(e.keyCode == 32) {
@@ -30,6 +30,25 @@ $(document).ready(function() {
             $(".xContainer").find("img").attr("src", "assets/" + numWrong + "x.png");
             $(".xContainer").show(0).delay(1200).hide(0);
         }
+
+        // left key = previous quesiton
+        if(e.keyCode == 37) {
+            prevQuestion();
+        }
+
+        // right key = next quesiton
+        if(e.keyCode == 39) {
+            nextQuestion();
+        }
+
+        // a key = next quesiton
+        if(e.keyCode == 65) {
+            for(var i=1; i<=json[currQuestion].answers.length; i++) {
+                showAll(i);
+            }
+        }
+        
+
 
         // 1-8 = reveal answer
         if(e.keyCode >=49) {
@@ -44,6 +63,8 @@ $(document).ready(function() {
              isTeamDisplayed = false;
             shouldListenForBuzzer = true;
         }
+
+        
     });
 
 });
@@ -63,6 +84,13 @@ function showAnswer(answerNum) {
         $("#answer" + answerNum).find("p").toggle();
         $("#answer" + answerNum).find("div").toggle();
         $("#points" + answerNum).find("p").toggle();
+        // correctAudio.play();
+}
+
+function showAll(answerNum) {
+        $("#answer" + answerNum).find("p").show();
+        $("#answer" + answerNum).find("div").hide();
+        $("#points" + answerNum).find("p").show();
         // correctAudio.play();
 }
 
@@ -106,6 +134,15 @@ function resetAnswerVisibility() {
 
 function nextQuestion() {
     currQuestion = currQuestion + 1;
+    numWrong = 0;
+    resetAnswerVisibility();
+    $(".revealText").hide();
+    $(".answerNum").show();
+    populateQuestion(currQuestion);
+}
+
+function prevQuestion() {
+    currQuestion = currQuestion - 1;
     numWrong = 0;
     resetAnswerVisibility();
     $(".revealText").hide();
