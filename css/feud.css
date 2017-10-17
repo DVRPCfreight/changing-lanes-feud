@@ -62,6 +62,15 @@ body {
 	margin: 5px 0px 0px 0px;
 }
 
+.team-name {
+	width: 505px;
+}
+
+.name {
+	width:505px;
+	border-right: 4px solid #BBBF32;
+} 
+
 .answerNum {
 	margin: 0px;
 	width: 65px;

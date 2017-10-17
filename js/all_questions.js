@@ -7,7 +7,7 @@ var json = [{
 },
 {
 "question": "I knew I had made it when...", 
-"answers": ["Designated parking spot", "Journey is the adventure", "Stopped being called \"honey\"", "Not sure I've \"Made it\" yet ", "Won WTS Philly WOman of the year", "Became 1st woman Director", "White House called", "Got the Corner Office"],
+"answers": ["Designated parking spot", "Journey is the adventure", "Stopped being called \"honey\"", "Not sure I've \"Made it\" yet ", "Won WTS Philly WOman of the year", "White House called", "Became 1st woman Director", "Got the Corner Office"],
 "points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
 },
 {

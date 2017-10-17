@@ -3,6 +3,7 @@ var numWrong = 0;
 
 var shouldListenForBuzzer = true;
 var isTeamDisplayed = false;
+var gameStarted = false;
 
 var xAudio;
 var buzzerAudio;
@@ -12,17 +13,27 @@ var correctAudio;
 $(document).ready(function() {
     console.log(json);
     // open_websocket();
-    populateQuestion(currQuestion);
+    // populateQuestion(currQuestion);
     initAudio();
 
     $(".xContainer").hide();
-    $("body").click(function(){
-        nextQuestion();
-    });
+    // $("body").click(function(){
+    //     nextQuestion();
+    // });
 
     $("body").bind('keydown', function(e) {
         // spacebar = wrong answer
         console.log(e.keyCode);
+
+        // enter key = start game
+        if(e.keyCode == 13 && !gameStarted) {
+            currQuestion = 0;
+            populateQuestion(currQuestion);
+            $('#teams').hide();
+            $('#primary-game').show();
+            gameStarted = true;
+        }
+
         if(e.keyCode == 32) {
             numWrong = (numWrong + 1)%4;
             if(numWrong == 0) numWrong = 1;
