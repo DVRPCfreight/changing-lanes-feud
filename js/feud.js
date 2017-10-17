@@ -96,9 +96,8 @@ function showAll(answerNum) {
 
 function populateQuestion(questionNum) {
     if(questionNum >= json.length) {
-        alert("no more questions - returning to question 0");
-        questionNum = 0;
-        currQuestion=0;
+        // end of game
+        $(".answerContainer").hide();
     }
     var numQuestions = json[questionNum].answers.length;
     $(".questionText").html(json[questionNum].question.toUpperCase());
