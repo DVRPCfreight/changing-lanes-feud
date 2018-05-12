@@ -8,7 +8,8 @@ var gameStarted = false;
 var xAudio;
 var buzzerAudio;
 var correctAudio;
-
+var $borderColor = '#D09E50';
+var $bgColor = '#7C9885';
 
 $(document).ready(function() {
     console.log(json);
@@ -134,11 +135,11 @@ function makeAnswerTransparent(answerNum) {
 
 function resetAnswerVisibility() {
     for(var i=1; i<=8; i++) {
-        $("#answer" + i).css("background-color", "#00A296");
-        $("#answer" + i).css("border-color", "#BBBF32");
+        $("#answer" + i).css("background-color", $bgColor);
+        $("#answer" + i).css("border-color", $borderColor);
         $("#answer" + i).find("div").show();
-        $("#points" + i).css("background-color", "#00A296");
-        $("#points" + i).css("border-color", "#BBBF32");
+        $("#points" + i).css("background-color", $bgColor);
+        $("#points" + i).css("border-color", $borderColor);
     }
 }
 

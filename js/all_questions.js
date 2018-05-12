@@ -7,13 +7,13 @@ var json = [{
 },
 {
 "question": "I knew I had made it when...", 
-"answers": ["Designated parking spot", "Journey is the adventure", "Stopped being called \"honey\"", "Not sure I've \"Made it\" yet ", "Won WTS Philly WOman of the year", "White House called", "Became 1st woman Director", "Got the Corner Office"],
-"points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
+"answers": ["Designated parking spot","White House called","felt on top of game","got the job!","GOT THE CORNER OFFICE","Got first airline job!","Not sure I've made it","could admit not knowing"],
+"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
 },
 {
 "question": "If I was not doing this job, I would be doing... ", 
-"answers": ["Professor", "Traveling and volunteering", "Working for MLB", "Not sure", "Audition for \"Amazing Race\"", "Time with grandchildren", "haven't thought about that", "steam for girls in schools"],
-"points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
+"answers": ["Professor","Time with grandchildren","real estate business","science","Steam for girls in schools","working in a spa","teaching","philanthropic work"],
+"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
 },
 {
 "question": "Have you mastered the art of saying \"NO\"?", 
@@ -22,13 +22,13 @@ var json = [{
 },
 {
 "question": "What is the thing that most people do not \"get\" about your job?", 
-"answers": ["Peoples' lives in your hands", "Public service is rewarding", "Volume of incoming missles", "very little control", "not just roads and bridges", "the politics", "creativity to motivate staff", "time is not my own"],
-"points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
+"answers": ["PEOPLES' LIVES IN YOUR HANDS","THE POLITICS","influence of Politics","What I actually do","Time is not my own","Non-visible parts","legal issue everywhere","jack-of-all-trades"],
+"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
 },
 {
 "question": "What is your favorite part of your job?", 
-"answers": ["Working with staff", "People", "The creative process", "Bringing people together", "Advancing diversity", "Serving the public", "celebrating team successes", "team building"],
-"points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
+"answers": ["WORKING WITH STAFF","SERVING THE PUBLIC","Accomplishing goals ","Creating Opportunity","Team Building","people I work with","talented + innovative people","never doing the same thing"],
+"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
 },
 {
 "question": "One thing my friends and family always tell me to do/not do", 
@@ -37,13 +37,13 @@ var json = [{
 },
 {
 "question": "What are some of the ways female advocates can make a difference?", 
-"answers": ["bring out aspiring talent", "provide insight to challenges", "stop mentoring, start sponsoring", "coach others at every opportunity", "Speak up, help others", "Mentor and make introductions", "allow venting, hear experiences", "be approachable"],
-"points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
+"answers": ["BRING OUT ASPIRING TALENT","MENTOR AND MAKE INTRODUCTIONS","Guide and support","Encourage Women to Go For It!","BE APPROACHABLE","be a role model","be good leaders","understand work-life balance"],
+"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
 },
 {
 "question": "What are some of the ways male advocates can make a difference?", 
-"answers": ["mentoring", "take a stand against gender bias", "women in front of decision-makers", "set goals, monitor results", "open mind, focus on opportunities", "mentor and make introductions", "truly provide empowerment", "encourage work-life balance"],
-"points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
+"answers": ["MENTORING","MENTOR AND MAKE INTRODUCTIONS","Respect, encourage and support","mentoring","ENCOURAGE WORK-LIFE BALANCE","be a sponsor","be good role models","speak up for you"],
+"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
 },
 {
 "question": "Who inspires you?", 
@@ -52,13 +52,13 @@ var json = [{
 },
 {
 "question": "Name one character trait that helped prepare you for leadership", 
-"answers": ["Courage!", "enthusiasm", "always willing to debate", "grit", "a sense of humor", "watching + learning from leaders", "fairness", "integrity, ingenuity, and tenacity"],
-"points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
+"answers": ["COURAGE!","WATCHING + LEARNING FROM LEADERS","Dedication","Drive","INTEGRITY, INGENUITY, AND TENACITY","positive attitude","hard working","\"give it a go\""],
+"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
 },
 {
 "question": "What was your dream job as a kid?", 
-"answers": ["Nuclear physicist", "ice cream shop owner", "boston red sox owner", "teacher", "truck driver", "attorney", "major league baseball umpire", "i'm living my dream job"],
-"points": ["JC","RS", "RC", "CC", "LR", "MP", "DH", "DB"]
+"answers": ["NUCLEAR PHYSICIST","ATTORNEY","doctor","Dentist/Chocolate Store Owner","I'M LIVING MY DREAM JOB","being an ambassador","doctor","architect"],
+"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
 },
 {
 "question": "If you came to my house, you would have __________ for dinner", 
