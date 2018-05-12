@@ -7,11 +7,11 @@ body {
 	overflow: hidden;
 	padding: 0px;
 	margin: 0 auto;
-	background-color:#007AA0;
+	background-color:#516781;
 	background-image: url('../assets/bg_wide-01.png');
-	background-position: center center;
+	background-position: top center;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: cover;
 }
 
 .xContainer {
@@ -45,8 +45,8 @@ body {
 .question {
 	width: 1040px;
 	height: 70px;
-	border: 5px solid #BBBF32;
-	background-color: #00A296;
+	border: 5px solid #D09E50;
+	background-color: #7C9885;
 	display: block;
 	margin-bottom: 50px;
 	color: #fff;
@@ -55,9 +55,9 @@ body {
 .answer {
 	width: 430px;
 	height: 75px;
-	border: 4px solid #BBBF32;
+	border: 4px solid #D09E50;
 	border-right: 0px;
-	background-color: #00A296;
+	background-color: #7C9885;
 	float: left;
 	margin: 5px 0px 0px 0px;
 }
@@ -68,14 +68,14 @@ body {
 
 .name {
 	width:505px;
-	border-right: 4px solid #BBBF32;
+	border-right: 4px solid #D09E50;
 } 
 
 .answerNum {
 	margin: 0px;
 	width: 65px;
 	height: 40px;
-	background-color: #BBBF32; 
+	background-color: #D09E50; 
 	margin: 12px 175px;
 	border-radius: 50%;
 	padding: 0px;
@@ -90,9 +90,9 @@ body {
 .points {
 	width: 75px;
 	height: 75px;
-	border: 4px solid #BBBF32;
-	border-left: 2px solid #BBBF32;
-	background-color: #00A296;
+	border: 4px solid #D09E50;
+	border-left: 2px solid #D09E50;
+	background-color: #7C9885;
 	float: left;
 	margin-top: 5px;
 
