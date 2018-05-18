@@ -22,7 +22,7 @@ var json = [{
 },
 {
 "question": "What is the thing that most people do not \"get\" about your job?", 
-"answers": ["PEOPLES' LIVES IN YOUR HANDS","THE POLITICS","influence of Politics","work it takes to get people from A to B","Time is not my own","Non-visible parts","legal issue everywhere","jack-of-all-trades"],
+"answers": ["PEOPLES' LIVES IN YOUR HANDS","THE POLITICS","influence of Politics","the work to get people from A to B","Time is not my own","Non-visible parts","legal issue everywhere","jack-of-all-trades"],
 "points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
