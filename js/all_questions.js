@@ -7,13 +7,13 @@ var json = [{
 },
 {
 "question": "I knew I had made it when...", 
-"answers": ["Designated parking spot","White House called","felt on top of game","got the job!","GOT THE CORNER OFFICE","Got first airline job!","Not sure I've made it","could admit not knowing"],
-"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
+"answers": ["Designated parking spot","White House called","felt on top of game","got my own assistant","GOT THE CORNER OFFICE","Got first airline job!","Not sure I've made it","could admit not knowing"],
+"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
 "question": "If I was not doing this job, I would be doing... ", 
-"answers": ["Professor","Time with grandchildren","real estate business","science","Steam for girls in schools","working in a spa","teaching","philanthropic work"],
-"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
+"answers": ["Professor","Time with grandchildren","real estate business","fixing up houses","Steam for girls in schools","working in a spa","teaching","philanthropic work"],
+"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
 "question": "Have you mastered the art of saying \"NO\"?", 
@@ -22,13 +22,13 @@ var json = [{
 },
 {
 "question": "What is the thing that most people do not \"get\" about your job?", 
-"answers": ["PEOPLES' LIVES IN YOUR HANDS","THE POLITICS","influence of Politics","What I actually do","Time is not my own","Non-visible parts","legal issue everywhere","jack-of-all-trades"],
-"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
+"answers": ["PEOPLES' LIVES IN YOUR HANDS","THE POLITICS","influence of Politics","work it takes to get people from A to B","Time is not my own","Non-visible parts","legal issue everywhere","jack-of-all-trades"],
+"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
 "question": "What is your favorite part of your job?", 
-"answers": ["WORKING WITH STAFF","SERVING THE PUBLIC","Accomplishing goals ","Creating Opportunity","Team Building","people I work with","talented + innovative people","never doing the same thing"],
-"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
+"answers": ["WORKING WITH STAFF","SERVING THE PUBLIC","Accomplishing goals ","planning for future","Team Building","people I work with","talented + innovative people","never doing the same thing"],
+"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
 "question": "One thing my friends and family always tell me to do/not do", 
@@ -37,13 +37,13 @@ var json = [{
 },
 {
 "question": "What are some of the ways female advocates can make a difference?", 
-"answers": ["BRING OUT ASPIRING TALENT","MENTOR AND MAKE INTRODUCTIONS","Guide and support","Encourage Women to Go For It!","BE APPROACHABLE","be a role model","be good leaders","understand work-life balance"],
-"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
+"answers": ["BRING OUT ASPIRING TALENT","MENTOR AND MAKE INTRODUCTIONS","Guide and support","Mentor","BE APPROACHABLE","be a role model","be good leaders","understand work-life balance"],
+"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
 "question": "What are some of the ways male advocates can make a difference?", 
-"answers": ["MENTORING","MENTOR AND MAKE INTRODUCTIONS","Respect, encourage and support","mentoring","ENCOURAGE WORK-LIFE BALANCE","be a sponsor","be good role models","speak up for you"],
-"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
+"answers": ["MENTORING","MENTOR AND MAKE INTRODUCTIONS","Respect, encourage and support","Sponsor","ENCOURAGE WORK-LIFE BALANCE","be a sponsor","be good role models","speak up for you"],
+"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
 "question": "Who inspires you?", 
@@ -52,13 +52,13 @@ var json = [{
 },
 {
 "question": "Name one character trait that helped prepare you for leadership", 
-"answers": ["COURAGE!","WATCHING + LEARNING FROM LEADERS","Dedication","Drive","INTEGRITY, INGENUITY, AND TENACITY","positive attitude","hard working","\"give it a go\""],
-"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
+"answers": ["COURAGE!","WATCHING + LEARNING FROM LEADERS","Dedication","Open mindedness","INTEGRITY, INGENUITY, AND TENACITY","positive attitude","hard working","\"give it a go\""],
+"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
 "question": "What was your dream job as a kid?", 
-"answers": ["NUCLEAR PHYSICIST","ATTORNEY","doctor","Dentist/Chocolate Store Owner","I'M LIVING MY DREAM JOB","being an ambassador","doctor","architect"],
-"points": ["JC","MP","AM","KD","DB","SB","AG","LR"]
+"answers": ["NUCLEAR PHYSICIST","ATTORNEY","doctor","architect","I'M LIVING MY DREAM JOB","being an ambassador","doctor","architect"],
+"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
 },
 {
 "question": "If you came to my house, you would have __________ for dinner", 
