@@ -2,27 +2,39 @@ var currQuestion = 0;
 var numWrong = 0;
 
 var shouldListenForBuzzer = true;
-var isTeamDisplayed = true;
+var isTeamDisplayed = false;
+var gameStarted = false;
 
 var xAudio;
 var buzzerAudio;
 var correctAudio;
-
+var $borderColor = '#D09E50';
+var $bgColor = '#7C9885';
 
 $(document).ready(function() {
     console.log(json);
     // open_websocket();
-    populateQuestion(currQuestion);
+    // populateQuestion(currQuestion);
     initAudio();
 
     $(".xContainer").hide();
-    $("body").click(function(){
-        nextQuestion();
-    });
+    // $("body").click(function(){
+    //     nextQuestion();
+    // });
 
-    $("body").bind('keypress', function(e) {
+    $("body").bind('keydown', function(e) {
         // spacebar = wrong answer
         console.log(e.keyCode);
+
+        // enter key = start game
+        if(e.keyCode == 13 && !gameStarted) {
+            currQuestion = 0;
+            populateQuestion(currQuestion);
+            $('#teams').hide();
+            $('#primary-game').show();
+            gameStarted = true;
+        }
+
         if(e.keyCode == 32) {
             numWrong = (numWrong + 1)%4;
             if(numWrong == 0) numWrong = 1;
@@ -30,6 +42,25 @@ $(document).ready(function() {
             $(".xContainer").find("img").attr("src", "assets/" + numWrong + "x.png");
             $(".xContainer").show(0).delay(1200).hide(0);
         }
+
+        // left key = previous quesiton
+        if(e.keyCode == 37 && gameStarted && currQuestion > 0) {
+            prevQuestion();
+        }
+
+        // right key = next quesiton
+        if(e.keyCode == 39 && gameStarted ) {
+            nextQuestion();
+        }
+
+        // a key = next quesiton
+        if(e.keyCode == 65) {
+            for(var i=1; i<=json[currQuestion].answers.length; i++) {
+                showAll(i);
+            }
+        }
+        
+
 
         // 1-8 = reveal answer
         if(e.keyCode >=49) {
@@ -44,6 +75,8 @@ $(document).ready(function() {
              isTeamDisplayed = false;
             shouldListenForBuzzer = true;
         }
+
+        
     });
 
 });
@@ -66,11 +99,17 @@ function showAnswer(answerNum) {
         // correctAudio.play();
 }
 
+function showAll(answerNum) {
+        $("#answer" + answerNum).find("p").show();
+        $("#answer" + answerNum).find("div").hide();
+        $("#points" + answerNum).find("p").show();
+        // correctAudio.play();
+}
+
 function populateQuestion(questionNum) {
     if(questionNum >= json.length) {
-        alert("no more questions - returning to question 0");
-        questionNum = 0;
-        currQuestion=0;
+        // end of game
+        $(".answerContainer").hide();
     }
     var numQuestions = json[questionNum].answers.length;
     $(".questionText").html(json[questionNum].question.toUpperCase());
@@ -96,16 +135,25 @@ function makeAnswerTransparent(answerNum) {
 
 function resetAnswerVisibility() {
     for(var i=1; i<=8; i++) {
-        $("#answer" + i).css("background-color", "#00A296");
-        $("#answer" + i).css("border-color", "#BBBF32");
+        $("#answer" + i).css("background-color", $bgColor);
+        $("#answer" + i).css("border-color", $borderColor);
         $("#answer" + i).find("div").show();
-        $("#points" + i).css("background-color", "#00A296");
-        $("#points" + i).css("border-color", "#BBBF32");
+        $("#points" + i).css("background-color", $bgColor);
+        $("#points" + i).css("border-color", $borderColor);
     }
 }
 
 function nextQuestion() {
     currQuestion = currQuestion + 1;
+    numWrong = 0;
+    resetAnswerVisibility();
+    $(".revealText").hide();
+    $(".answerNum").show();
+    populateQuestion(currQuestion);
+}
+
+function prevQuestion() {
+    currQuestion = currQuestion - 1;
     numWrong = 0;
     resetAnswerVisibility();
     $(".revealText").hide();
