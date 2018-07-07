@@ -7,13 +7,18 @@ var json = [{
 },
 {
 "question": "I knew I had made it when...", 
-"answers": ["Designated parking spot","White House called","felt on top of game","got my own assistant","GOT THE CORNER OFFICE","Got first airline job!","Not sure I've made it","could admit not knowing"],
-"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
+"answers": ["Designated parking spot","Had chief of staff","assistant always knew location","Won WTS Philly WOman of the year","bathroom in my office","stopped hearing my name at work"],
+"points": ["JC","SP","SM","LR","DGS","VS"]
 },
 {
+    "question": "What is the thing that most people do not \"get\" about your job?", 
+    "answers": ["PEOPLES' LIVES IN YOUR HANDS","most roads/bridges not state's","always have to be \"on\" in public","not just roads and bridges","that it is a job!","have less power than they think"],
+    "points": ["JC","SP","SM","LR","DGS","VS"]
+    },
+{
 "question": "If I was not doing this job, I would be doing... ", 
-"answers": ["Professor","Time with grandchildren","real estate business","fixing up houses","Steam for girls in schools","working in a spa","teaching","philanthropic work"],
-"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
+"answers": ["Professor","teaching engineers, policymakers","sleeping in later","Audition for \"Amazing Race\"","teaching","no idea"],
+"points": ["JC","SP","SM","LR","DGS","VS"]
 },
 {
 "question": "Have you mastered the art of saying \"NO\"?", 
@@ -21,14 +26,19 @@ var json = [{
 "points": [44,30,25,1]
 },
 {
-"question": "What is the thing that most people do not \"get\" about your job?", 
-"answers": ["PEOPLES' LIVES IN YOUR HANDS","THE POLITICS","influence of Politics","the work to get people from A to B","Time is not my own","Non-visible parts","legal issue everywhere","jack-of-all-trades"],
-"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
+"question": "What are some of the ways female advocates can make a difference?", 
+"answers": ["BRING OUT ASPIRING TALENT","refuse to be only female at table","help other women be visible","Speak up, help others","share your story and mentor","support other women"],
+"points": ["JC","SP","SM","LR","DGS","VS"]
+},
+{
+"question": "What are some of the ways male advocates can make a difference?", 
+"answers": ["MENTORING","model respectful interactions","acknowledge women's comments","open mind, focus on opportunities","attend WTS","speak up and join conversation"],
+"points": ["JC","SP","SM","LR","DGS","VS"]
 },
 {
 "question": "What is your favorite part of your job?", 
-"answers": ["WORKING WITH STAFF","SERVING THE PUBLIC","Accomplishing goals ","planning for future","Team Building","people I work with","talented + innovative people","never doing the same thing"],
-"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
+"answers": ["WORKING WITH STAFF","designing funding programs","shifting money around to spend it","Advancing diversity","the people","the mission"],
+"points": ["JC","SP","SM","LR","DGS","VS"]
 },
 {
 "question": "One thing my friends and family always tell me to do/not do", 
@@ -36,30 +46,30 @@ var json = [{
 "points": [33,17,13,9,8,4,3,2]
 },
 {
-"question": "What are some of the ways female advocates can make a difference?", 
-"answers": ["BRING OUT ASPIRING TALENT","MENTOR AND MAKE INTRODUCTIONS","Guide and support","Mentor","BE APPROACHABLE","be a role model","be good leaders","understand work-life balance"],
-"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
-},
-{
-"question": "What are some of the ways male advocates can make a difference?", 
-"answers": ["MENTORING","MENTOR AND MAKE INTRODUCTIONS","Respect, encourage and support","Sponsor","ENCOURAGE WORK-LIFE BALANCE","be a sponsor","be good role models","speak up for you"],
-"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
-},
+    "question": "Name one character trait that helped prepare you for leadership", 
+    "answers": ["COURAGE!","empathy","understanding all sides","a sense of humor","compassion","be humble"],
+    "points": ["JC","SP","SM","LR","DGS","VS"]
+    },
+    {
+    "question": "What was your dream job as a kid?", 
+    "answers": ["NUCLEAR PHYSICIST","engineer","mapmaker","truck driver","singer","truck driver"],
+    "points": ["JC","SP","SM","LR","DGS","VS"]
+    },
 {
 "question": "Who inspires you?", 
 "answers": ["Family members", "women leaders", "religious leader", "sheryl sandberg", "michelle obama", "rina cutler", "leslie richards", "gloria steinem"],
 "points": [28,20,16,12,8,1,1,1]
 },
 {
-"question": "Name one character trait that helped prepare you for leadership", 
-"answers": ["COURAGE!","WATCHING + LEARNING FROM LEADERS","Dedication","Open mindedness","INTEGRITY, INGENUITY, AND TENACITY","positive attitude","hard working","\"give it a go\""],
-"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
-},
-{
-"question": "What was your dream job as a kid?", 
-"answers": ["NUCLEAR PHYSICIST","ATTORNEY","doctor","architect","I'M LIVING MY DREAM JOB","being an ambassador","doctor","architect"],
-"points": ["JC","MP","AM","LS","DB","SB","AG","LR"]
-},
+    "question": "What was the best/worst decision you ever made?", 
+    "answers": ["leading the DMV","secretary for moderate rep. gov","getting new office furniture","running for elected office","having children/majoring in acct.","pursuing current position"],
+    "points": ["JC","SP","SM","LR","DGS","VS"]
+    },
+    {
+    "question": "What was your dream job as a kid?", 
+    "answers": ["to \"up the bar\"","(sadly) still not being token woman","understanding all generations","staying true to yourself","work/life balance","work/life balance"],
+    "points": ["JC","SP","SM","LR","DGS","VS"]
+    },
 {
 "question": "If you came to my house, you would have __________ for dinner", 
 "answers": ["pasta", "something grilled", "pizza/take out", "fish", "stir fry", "tacos", "thai", "popcorn and wine"],

@@ -45,7 +45,7 @@ body {
 .question {
 	width: 1040px;
 	height: 70px;
-	border: 5px solid #D09E50;
+	border: 5px solid #F3AC5E;
 	background-color: #7C9885;
 	display: block;
 	margin-bottom: 50px;
@@ -55,7 +55,7 @@ body {
 .answer {
 	width: 430px;
 	height: 75px;
-	border: 4px solid #D09E50;
+	border: 4px solid #F3AC5E;
 	border-right: 0px;
 	background-color: #7C9885;
 	float: left;
@@ -68,14 +68,14 @@ body {
 
 .name {
 	width:505px;
-	border-right: 4px solid #D09E50;
+	border-right: 4px solid #F3AC5E;
 } 
 
 .answerNum {
 	margin: 0px;
 	width: 65px;
 	height: 40px;
-	background-color: #D09E50; 
+	background-color: #F3AC5E; 
 	margin: 12px 175px;
 	border-radius: 50%;
 	padding: 0px;
@@ -90,8 +90,8 @@ body {
 .points {
 	width: 75px;
 	height: 75px;
-	border: 4px solid #D09E50;
-	border-left: 2px solid #D09E50;
+	border: 4px solid #F3AC5E;
+	border-left: 2px solid #F3AC5E;
 	background-color: #7C9885;
 	float: left;
 	margin-top: 5px;
