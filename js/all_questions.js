@@ -66,7 +66,7 @@ var json = [{
     "points": ["JC","SP","SM","LR","DGS","VS"]
     },
     {
-    "question": "What do you think will be the biggest challenge for the generation of women behind you?", 
+    "question": "What will be the biggest challenge for the generation of women behind you?", 
     "answers": ["to \"up the bar\"","(sadly) still not being token woman","understanding all generations","staying true to yourself","work/life balance","work/life balance"],
     "points": ["JC","SP","SM","LR","DGS","VS"]
     },
